@@ -37,9 +37,6 @@ Os **requisitos** (funcionalidades e restrições de um software) de um sistema 
 
 ## **Projeto de Software.**
 
-
-Aula 02 - fundamentos
-
  Projeto (Geral) - encontrar uma solução para resolver um problema. 
 Projeto de software - objetivo: encontrar soluções( um sistema) para resolver um problema, atendendo a requisitos funcionais e não funcionais.
 
@@ -54,3 +51,8 @@ Análise e avaliação dos modelos.
 
 Projeto de Software consiste em duas atividades que enquadram entre análise de requisitos e construção de software.
 
+## **Contrução de Software** 
+
+Construção trata da implementação, isto é, codificação do sistema. Nesse momento, existem diversas decisões que precisam ser tomadas, como, por exemplo: definir os algoritmos e estruturas de dados que serão usados, definir os frameworks e bibliotecas de terceiros que serão usados; definir técnicas para tratamento de exceções; definir padrões de nomes, leiaute e documentação de código e, por último, mas não menos importante, definir as ferramentas que serão usadas no desenvolvimento, incluindo compiladores, ambientes integrados de desenvolvimento (IDEs), depuradores, gerenciadores de bancos de dados, ferramentas para construção de interfaces, etc.
+
+## **Teste de Software** 
