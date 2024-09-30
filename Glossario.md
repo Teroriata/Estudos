@@ -1,9 +1,37 @@
 # Glossário 
 
+- [Algoritmo](#algoritmo)
 - [História de Usuário](#história-de-usuário)
 - [Requisito de Software](#requisito-de-software)
 - [Atributo](#atributo)
 - [linguagem Imperativa](#linguagem-imperativa)
+
+## **Algoritmo**
+
+Um **algoritmo** é uma sequência finita e bem definida de instruções ou passos que resolvem um problema ou realizam uma tarefa. Ele pode ser considerado como uma "receita" que descreve o conjunto de operações a serem realizadas, passo a passo, para alcançar um resultado desejado.
+
+### Principais Características de um Algoritmo
+
+1. **Finitude**: Deve ter um número finito de passos e terminar em algum momento.
+2. **Precisão**: Cada passo do algoritmo deve ser bem definido e sem ambiguidades.
+3. **Entrada**: Pode ter zero ou mais valores de entrada que guiarão sua execução.
+4. **Saída**: Deve produzir pelo menos uma saída, que é o resultado do processamento.
+5. **Efetividade**: Cada passo do algoritmo deve ser executável em tempo finito com os recursos disponíveis.
+
+### Exemplos de Algoritmos
+
+- **Busca Binária**: Um algoritmo para encontrar um valor em uma lista ordenada.
+- **Algoritmo de Euclides**: Um método para calcular o maior divisor comum (MDC) entre dois números.
+
+### Representação de Algoritmos
+
+Algoritmos podem ser escritos em diferentes formatos, como:
+
+- **Pseudocódigo**
+- **Linguagens de Programação**
+- **Diagramas**
+
+Dependendo do nível de abstração e do contexto de aplicação.
 
 ## **História de Usuário**
 
