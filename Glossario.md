@@ -141,6 +141,23 @@ Exemplos de linguagens imperativas incluem **C**, **Java**, **Python** (quando u
 
 Um artefato em Engenharia de Software é qualquer produto tangível gerado ao longo do ciclo de desenvolvimento de software. Isso inclui documentos, modelos, códigos-fonte, manuais, diagramas e até protótipos. Artefatos são usados para planejar, implementar, testar e manter o software, sendo essenciais para o controle e documentação do processo de desenvolvimento.
 
+## Banco de dados.
+
+      ## SGBD
+
+      ## Entidades.
+
+      ## Atributos? 
+
+      ## Domínios.
+
+      ## Tupla.
+
+      ## Chave primaria.
+
+      ## chave estrangeria
+
+
 
 Leiura sobre requisitos e atributos.
 https://visuresolutions.com/pt/blog/high-quality-requirements-attributes/
