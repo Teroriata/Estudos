@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Interativo - Aulas de Matemática Básica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            cursor: pointer;
+            margin: 10px 0;
+            font-size: 18px;
+            background-color: #ffe599; /* Cor de fundo inicial */
+            padding: 10px;
+            border: 2px solid black; /* Borda preta */
+            border-radius: 10px; /* Cantos arredondados */
+            transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+        }
+        li.checked {
+            text-decoration: line-through;
+            color: gray;
+            background-color: #d3d3d3; /* Fundo cinza quando clicado */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Checklist de Aulas - Matemática Básica</h1>
+    <ul id="aulas-list">
+        <!-- Aulas de 1 a 47 -->
+    </ul>
+
+    <script>
+        const aulasList = document.getElementById('aulas-list');
+
+        // Função para gerar as aulas de 1 a 47
+        function gerarAulas() {
+            for (let i = 1; i <= 47; i++) {
+                const li = document.createElement('li');
+                li.textContent = `Aula ${i}`;
+                
+                // Verifica se a aula já foi confirmada e atualiza o estado
+                const aulasSalvas = JSON.parse(localStorage.getItem('aulas')) || [];
+                if (aulasSalvas.includes(i)) {
+                    li.classList.add('checked');
+                }
+
+                li.addEventListener('click', function() {
+                    li.classList.toggle('checked'); // Alterna o estado de confirmado/riscado
+                    salvarEstado(i); // Salva o estado da aula
+                });
+
+                aulasList.appendChild(li);
+            }
+        }
+
+        // Função para salvar o estado das aulas no Local Storage
+        function salvarEstado(aula) {
+            let aulasSalvas = JSON.parse(localStorage.getItem('aulas')) || [];
+            
+            // Se a aula já está salva, remove-a. Caso contrário, adiciona-a
+            if (aulasSalvas.includes(aula)) {
+                aulasSalvas = aulasSalvas.filter(a => a !== aula); // Remove a aula
+            } else {
+                aulasSalvas.push(aula); // Adiciona a aula
+            }
+            
+            localStorage.setItem('aulas', JSON.stringify(aulasSalvas));
+        }
+
+        // Chamar a função para gerar as aulas quando a página carregar
+        gerarAulas();
+    </script>
+
+</body>
+</html>
