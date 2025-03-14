@@ -26,6 +26,7 @@ int main(){
         break;
     
     default:
+        printf("OPCAO NAO VALIDA\n");
         break;
     }
     return 0;
