@@ -40,3 +40,51 @@ INSERT INTO pessoas VALUES
 select * from pessoas;
 
 SHOW STATUS;
+
+DESCRIBE pessoas;
+ALTER TABLE pessoas ADD COLUMN profissao varchar(30); # adiciona coluna
+ALTER TABLE pessoas DROP COLUMN profissao; # remove coluna
+
+ALTER TABLE pessoas ADD COLUMN profissao varchar(30) AFTER nome; # adiciona uma colina  depois de "nome"
+ALTER TABLE pessoas ADD  codigo int FIRST; # Adiciona uma coluna no começo.
+# não precisa espeficificar quando for no final.
+
+ALTER TABLE pessoas MODIFY COLUMN profissao VARCHAR(20) NOT NULL DEFAULT''; #  modificar columa, não da para renomear
+ALTER TABLE pessoas CHANGE COLUMN profissao prof varchar(20) NOT NULL DEFAULT '';  #  modificar columa, da para renomear 
+ALTER TABLE pessoas RENAME TO gafanhotos; # renomear o nome da tabela inteira.
+
+DESCRIBE gafanhotos;
+
+CREATE TABLE IF NOT EXISTS cursos (
+	
+	nome VARCHAR(30) NOT NULL UNIQUE,
+	descricao TEXT,
+    carga INT UNSIGNED,
+    totaulas INT,
+    ano YEAR DEFAULT '2025'
+)DEFAULT CHARACTER SET utf8mb4;
+
+DROP TABLE cursos; # apagaria a taela cursos
+
+SELECT * FROM cursos;
+
+ALTER TABLE cursos add column idCurso int FIRST;
+ALTER TABLE cursos ADD PRIMARY KEY(idCurso);
+
+DESCRIBE cursos;
+
+create table if not exists teste(
+   id int,
+   nome varchar(10),
+   idade int
+)default character set utf8mb4;
+
+insert into teste value
+(1,'rato',23),
+(2,'mateus',26),
+(3,'jodis',20),
+(4,'abelha',24);
+
+select * from teste;
+
+DROP TABLE if exists teste;
