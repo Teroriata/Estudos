@@ -1,3 +1,8 @@
+# Sumário
+
+- [1.1 Introdução](#11-introdução)
+- [1.2 Um Exemplo](#12-um-exemplo)
+
 # 1.1 Introdução.
 
 um **banco de dados** é uma coeção de dados relacionados. Os **dados** são fatos que podem ser gravados e que possuem um significado implícito.
@@ -87,3 +92,26 @@ Nesse estágio, é útil descrever o banco de dados como parte de uma tarefa mai
 O projeto de uma nova aplicação para um banco de dados existente ou de um novo banco de dados começa com uma fase chamada **especificação e análise de requisitos**. Esses requisitos são documentados com detalhes e transformados em um **projeto conceitual**. 
 
 O projeto é então traduzido para um **projeto lógico**  que pode ser expresso em um modelo de dados implementado em um SGBD comercial. O estáfio final é o **projeto físico** durante o qual outras especificações são fornecidas para armazenas e acessar o banco de dados. O projeto de banco de dados é implementado, alimentado com dados reais e mantido continuamente para refletir o estado do minimundo.
+
+# 1.3 Características da abordagem de banco de dados.
+
+Diversas características distinguem a abordagem de banco de dados da abordagem muito mais antiga de programação com arquivos.
+
+No **processamento de arquivo** tradicional, cada usuário define e implementa os arquivos necessários para uma aplicação de software específica como parte da programação da aplicação. Por exemplo, um usuário, ***departamento de registro acadêmico***, pode manter arquivos sobre os alunos e suas notas. os programas para imprimir o histórico escolar de um aluno e inserir novas notas são implementados com parte da aplicação um segundo usuário, o ***departamento de finanças***, pode registrar as mensalidades dos alunos e seus pagamentos. Embora ambos os usuários estejam interessados em dados sobre alunos, cada um mantém arquivos separados. E programas para manipular esses arquivos, pois cada usuário requer dados não disponíveis nos arquivos do outro. Essa redundância na definição e no armazenamento de dados resuslta em desperdício no espaço de armazenamento e em esforços redundantes para manter os dados comuns atualizados.
+
+Na abordagem de banco de dados, um único repositório mantém dados que são definidos uma vez e depois acessados por vários usuários. Nos sistemas de arquivos, cada aplicação é livre para nomear os elementos de dados independentemente. Ao contrário, em um banco de dados, os nomes o rótulos de dados são definidos uma vez, e usados repetidamente por consultas, transações e aplicações. As principais característica da bordagem de banco de dados *versus*   a abordagem de processamento de arquivo são as seguintes:
+- Natureza de autodescrição de um sistema de banco de dados.
+- Isolamento entre programas e dados, e abstra~ção de dados.
+- Suporte de múltiplas visões dos dados.
+- Compartilhamento de dados e processamento de tansação multiusuário.
+
+## 1.3.1 Natureza de autodescrição de um sistem de banco de dados.
+
+Uma características fundamental da abordagem de banco de dados é que seu sistema contém não apenas o próprio banco de dados, mas tambem uma definição ou descrição completa de sua estrutura e restrições. Essa definição é armazenada no catálogo do SGBD, que possui informações como a estrutura de cada arquivo, o tipo e o formato de armazenamento de cada ite de dados e diversas restrições sobre os dados. a informação armazenada no catálago é chamada de **metadados**, e descreve a estrutura do banco de dados principal.
+
+🔹 Exemplo de metadados:
+- Nome das tabelas e suas colunas
+- Tipo de dados de cada coluna (ex.: INT, VARCHAR, DATE)
+- tamanho máximo dos campos
+- Restrições (ex.: PRIMARY KEY, FOREIGN KEY, NOT NULL).
+
