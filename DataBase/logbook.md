@@ -323,3 +323,119 @@ Considere os seguintes componentes da **Arquitetura de um SGBD** típico (identi
 6. Execution engine
 
 Pesquise sobre cada um dos componentes da arquitetura típica de um SGBD listados acima.
+
+### 1️⃣ Concurrency Control (Controle de Concorrência)
+- Responsável por gerenciar o acesso simultâneo de múltiplas transações ao banco de dados.
+- Evita condições de corrida, anomalias de leitura, deadlocks e garante isolamento das transações.
+- Utiliza técnicas como:
+  - Bloqueios (Locks): Controle de acesso exclusivo a determinados dados.
+  - Timestamp Ordering: Ordenação baseada em carimbos de tempo das transações.
+  - Multiversion Concurrency Control (MVCC): Mantém múltiplas versões dos dados para leitura sem bloqueios.
+
+### 2️⃣ Transaction Manager (Gerenciador de Transações)
+- Controla transações dentro do banco de dados, garantindo as propriedades ACID:
+  - Atomicidade: A transação ocorre completamente ou não ocorre.
+  - Consistência: O banco de dados permanece válido após a transação.
+  - Isolamento: Uma transação não interfere em outra.
+  - Durabilidade: Alterações persistem após a conclusão da transação.
+- Coordena o commit (confirmação) ou rollback (reversão) de transações.
+- Trabalha em conjunto com o controle de concorrência para evitar problemas como dirty reads e phantom reads.
+
+### 3️⃣ Query Compiler (Compilador de Consultas)
+- Converte consultas SQL em um plano de execução eficiente que pode ser interpretado pelo banco de dados.
+- Componentes principais:
+  - Parser: Analisa a sintaxe da consulta SQL.
+  - Rewriter: Faz otimizações e simplificações na consulta.
+  -  Optimizer: Escolhe o melhor plano de execução baseado em estatísticas (uso de índices, tabelas temporárias, joins eficientes, etc.).
+  - Code Generator: Transforma a consulta otimizada em comandos executáveis pelo SGBD.
+
+### 4️⃣ Logging and Recovery (Registro e Recuperação)
+- Logging: Mantém um log de transações para garantir a recuperação de falhas.
+  - Registra operações antes da execução (write-ahead logging - WAL).
+  - Permite recuperação em caso de falhas do sistema.
+- Recovery: Usa os logs para restaurar o banco de dados a um estado consistente após falhas:
+  - Redo (reaplicar operações confirmadas) para recuperar transações bem-sucedidas.
+  - Undo (desfazer operações não confirmadas) para garantir consistência.
+  - Essencial para manter durabilidade e integridade dos dados.
+
+###  5️⃣ Buffer Manager (Gerenciador de Buffer)
+- Controla a movimentação de dados entre a memória principal (RAM) e o armazenamento secundário (disco).
+- Tenta minimizar o acesso ao disco, mantendo os dados mais utilizados na memória.
+- Principais estratégias:
+  - Replacement Policies: Decide quais páginas remover da memória (ex.: LRU - Least Recently Used).
+  - Prefetching: Carrega páginas antecipadamente para melhorar o desempenho.
+  - Write Policies: Controla quando os dados da memória são gravados no disco (ex.: write-back ou write-through).
+
+###  6️⃣ Execution Engine (Motor de Execução)
+- Responsável por executar as consultas SQL seguindo o plano gerado pelo Query Compiler.
+- Coordena a interação entre os outros componentes do SGBD.
+- Passos típicos:
+  - Recebe o plano de execução otimizado.
+  - Acessa os dados necessários via Buffer Manager.
+  - Aplica operações relacionais (joins, filtros, projeções, etc.).
+  - Usa o Transaction Manager e Logging and Recovery para garantir integridade e consistência.
+  - Retorna os resultados ao usuário.
+
+| Componente           | Função                                                   |
+|----------------------|---------------------------------------------------------|
+| **Concurrency Control** | Gerencia acesso simultâneo ao BD, evitando inconsistências. |
+| **Transaction Manager** | Controla transações, garantindo propriedades ACID.       |
+| **Query Compiler**    | Analisa e otimiza consultas SQL.                          |
+| **Logging and Recovery** | Mantém logs e garante recuperação em caso de falhas.   |
+| **Buffer Manager**     | Gerencia a movimentação de dados entre memória e disco.  |
+| **Execution Engine**   | Executa as consultas seguindo o plano otimizado.        |
+
+## Tópico 7 - Sistema gerenciador de banco de dados.
+
+## [Tópico T07] - Modelo de Dados
+###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
+
+Um objetivo importante de um sistema de banco de dados é fornecer aos usuários uma percepção abstrata dos dados - o sistema oculta certos detalhes de como os dados são armazenados e mantidos. Nesse sentido, estruturas de dados complexas podem ser ***escondidas*** pelo emprego de vários níveis de abstração, o que simplifica as interações dos usuários com o sistema.
+
+A figura a seguir ilustra uma **arquitetura de três esquemas**, a qual promove a **percepção abstrata dos dados**. O objetivo dessa arquitetura é separar os aplicativos do usuário dos detalhes existentes no banco de dados *físico*:
+
+- **Nível interno (nível físico).** O nível mais baixo de abstração, que descreve como os dados são realmente armazenados, ou seja, a estrutura de armazenamento físico do banco de dados. Representa os detalhes completos de armazenamento de dados e caminhos de acesso para o banco de dados.
+- **Nível conceitual.** Este nível de abstração oculta os detalhes das estruturas de armazenamento físico e se concentra na descrição de entidades, tipos de dados, relacionamentos, operações do usuário e restrições.<br>
+*Obs.: há autores que mencionam **nível lógico** (em vez de nível conceitual), sem perda da noção de ocultamento dos detalhes e complexidade em nível físico*.
+- **Nível externo (nível visão).** O nível mais alto de abstração, que descreve a parte do banco de dados na qual um determinado grupo de usuários está interessado (uma *visão dos dados*), e oculta o restante do banco de dados desse grupo de usuários. 
+
+![alt text](image-8.png)
+
+A percepção abstrata dos dados lida com a representação do banco de dados em distintos níveis de abstração, a saber: o esquema externo, o esquema conceitual (ou esquema lógico, segundo alguns autores) e esquema físico; ou seja, do mais abstrato para o menos abstrato. Vale ressaltar que os três esquemas são apenas descrições de dados; os dados reais são armazenados concretamente apenas no nível interno (nível físico).
+
+>Nosso curso lida com o **esquema conceitual** e o **esquema lógico**, que se referem a percepções abstratas distintas entre si.
+
+### Independência de dados
+
+Uma consequência da percepção abstrata de dados em níveis é a **independência de dados**, que denota *a capacidade de alterar o esquema em um nível (de um sistema de banco de dados), sem ter que alterar o esquema no nível imediatamente superior*. A literatura usualmente apresenta dois tipos de independência de dados:
+
+1. ***Independência lógica de dados.*** É a capacidade de alterar o esquema conceitual (ou esquema lógico, segundo alguns autores), sem ter que alterar esquemas externos ou programas aplicativos.<br>
+**O que significa "alterar o esquema conceitual (ou esquema lógico, segundo alguns autores)"?**<br>
+Dois exemplos são: adicionar um *tipo de registro* ou *item de dados*, e remover um *tipo de registro* ou *item de dados*. No último caso, os esquemas externos que se referem apenas aos *tipos de registro* ou *itens de dados* restantes (aqueles não removidos) não devem ser afetados. Em adição, as alterações nas restrições de dados aplicadas ao esquema conceitual (ou esquema lógico, segundo alguns autores) em geral não afetam os esquemas externos ou programas de aplicativos.
+1. ***Independência física de dados.*** É a capacidade de alterar o esquema interno sem ter que alterar o esquema conceitual (ou esquema lógico, segundo alguns autores).<br>
+**O que significa "alterar o esquema interno"?**<br>
+Dois exemplos são: ordenar os registros de um arquivo e criar um índice para um arquivo de dados. Ambos os exemplos podem promover um caminho de acesso para melhorar a velocidade de acesso aos registros de interesse.
+
+Sobre ambas as independências de dados, a independência física é mais usual ser alcançada, pois os aplicativos (que interagem em geral com a percepção lógica dos dados) não necessitam conhecer detalhes físicos, tal como a localização exata dos dados. Por outro lado, a independência lógica de dados é mais difícil de se alcançar, pois são mais frequentes as mudanças em nível conceitual (ou nível lógico, segundo alguns autores) que afetam o nível externo (por exemplo exclusão de um *item de dado* que é usado em uma *visão dos dados*).
+
+### Modelo de dados
+
+**Modelos de dados** promovem a percepção abstrata em níveis para o banco de dados. Um **modelo de dados** é uma coleção de conceitos que podem ser usados para descrever a estrutura de um banco de dados, relacionamentos de dados, semântica de dados e restrições de consistência. Algumas categorias de modelos de dados são:
+- ***Modelo Entidade-Relacionamento (MER).*** Emprega uma **coleção de elementos conceituais** pertinentes aos dados, e cada desses elementos conceituais é classificado como **[tipo de] entidade**, **[tipo de] relacionamento entre entidades** ou **atributo**.
+- ***Modelo Relacional (MR).*** Emprega uma **coleção de relações** para representar os dados e os relacionamentos entre esses dados. De forma simples, uma **relação** pode ser percebida como uma **tabela**, ou seja, uma representação 2-D composta por linhas e colunas.
+- ***Modelo de dados semiestruturados***. Emprega uma especificação de dados onde itens de dados individuais do mesmo tipo podem ter diferentes conjuntos de atributos. Por exemplo, os atributos que descrevem cada empregado não são uniformes (um empregado é descrito por *CPF*, *Nome* e *Data de Nascimento*, enquanto que outro empregado é descrito por *Nome*, *Local de Nascimento*, *Nome da Mãe* e *Salário*). JSON e XML são amplamente usados em representações de dados semiestruturados.
+
+>Nosso curso lida com o **modelo entidade-relacionamento** e o **modelo-relacional**, para a especificação do **esquema conceitual** e do **esquema lógico** de um banco de dados, respectivamente.
+
+### Para refletir
+
+> *Para que o sistema seja utilizável, ele deve recuperar os dados com eficiência (tempo). A necessidade de eficiência levou os desenvolvedores de sistema de banco de dados a usar estruturas de dados complexas para representar os dados no banco de dados. Uma vez que muitos usuários do sistema de banco de dados não são treinados em computador, os desenvolvedores escondem a complexidade dos usuários por meio de vários níveis de abstração de dados, para permitir que os usuários interajam efetivamente com o sistema.*<br>
+
+### Exercício
+
+1. _Você consegue **elaborar uma interpretação** (a sua interpretação) sobre **modelos de dados**, que foram inicialmente introduzidos no presente tópico?_
+   - Em caso negativo, favor estar atento aos comentários em sala de aula e, se possível, exponha as suas dúvidas. Em adição, busque a literatura recomendada pela disciplina.
+
+### Bibliografia
+
+[1] ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
