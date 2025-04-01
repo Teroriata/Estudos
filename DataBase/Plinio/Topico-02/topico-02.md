@@ -39,3 +39,5 @@ Em alguns casos, um relacionamento pode ter atributos próprios. Isso ocorre qua
 Quer que eu crie um diagrama MER para ilustrar isso melhor? 🚀
 
 Em um Modelo Entidade-Relacionamento (MER), as entidades são representadas por retângulos e seus atributos por elipses.
+
+![alt text](MER.png)
