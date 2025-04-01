@@ -38,6 +38,8 @@ Apresente a sua definição sobre '_o que banco de dados_', tal que englobe o co
     ### **RESPOSTA** <br>
      Banco de dados é um conjunto de dados relacionados, com objetivo de armazenar informações para um sistema de proposito especifico.
 
+---
+
 2. Sobre os possíveis papéis do **software** que gerencia o banco de dados, observe que há termos assinalados em negrito e itálico e seguidos de (??), tais como ***linguagem de consulta*** e ***durabilidade***. Pesquise sobre tais termos, e formule o seu entendimento sobre os mesmos. Não copie o texto da bibliografia, construa a sua interpretação.
 
 
@@ -45,11 +47,15 @@ Apresente a sua definição sobre '_o que banco de dados_', tal que englobe o co
 
 
 
+### **RESPOSTA** <br>
+
 - **Usuários:** São as pessoas ou sistemas que interagem com o banco de dados para inserir, modificar, consultar ou administrar os dados. Podem ser administradores, desenvolvedores, analistas de dados ou aplicativos automatizados.
 
 - **Esquemas:** Representam a estrutura do banco de dados, incluindo tabelas, relações, restrições, índices e outras definições. O esquema define como os dados serão organizados e interligados.
 
 - **Linguagem de definição de dados:** Conjunto de comandos utilizados para definir a estrutura do banco de dados, como criar, alterar ou excluir tabelas e restrições. No SQL, essa linguagem é conhecida como DDL (Data Definition Language), incluindo comandos como CREATE, ALTER e DROP.
+
+- **Linguagem de manipulação de dados:** Conjunto de comandos que possibilitam a inserção, alteração, exclusão e recuperação de dados no banco. No SQL, isso corresponde à DML (Data Manipulation Language), que inclui comandos como SELECT, INSERT, UPDATE e DELETE.
 
 - **Consultar os dados:** Ação de buscar e recuperar informações armazenadas no banco de dados. Geralmente, isso é feito por meio de consultas estruturadas utilizando SQL, permitindo filtrar, ordenar e agrupar dados conforme necessário.
 
@@ -57,7 +63,7 @@ Apresente a sua definição sobre '_o que banco de dados_', tal que englobe o co
 
 - **Linguagem de consulta:** Linguagem utilizada para solicitar informações do banco de dados. A mais comum é a SQL, que permite realizar buscas específicas, aplicar filtros, agregar dados e combinar informações de diferentes tabelas.
 
-- **Linguagem de manipulação de dados:** Conjunto de comandos que possibilitam a inserção, alteração, exclusão e recuperação de dados no banco. No SQL, isso corresponde à DML (Data Manipulation Language), que inclui comandos como SELECT, INSERT, UPDATE e DELETE.
+
 
 - **Armazenamento de grande volume de dados:** Capacidade de um banco de dados de lidar com grandes quantidades de informações, podendo chegar a terabytes ou petabytes de dados. Isso exige soluções eficientes para garantir acesso rápido e seguro.
 
@@ -73,4 +79,23 @@ Apresente a sua definição sobre '_o que banco de dados_', tal que englobe o co
 
 - **Interferências inesperadas entre os usuários:** Problemas que podem ocorrer quando vários usuários acessam e modificam os mesmos dados simultaneamente, causando inconsistências. O banco de dados deve gerenciar concorrência para evitar conflitos.
 
-- **Transações nos dados sejam realizadas parcialmente:** Uma transação é um conjunto de operações que devem ser concluídas de forma integral. Se uma transação for interrompida antes de ser totalmente executada, pode gerar inconsistências. O banco de dados deve garantir que transações sejam concluídas por completo ou revertidas totalmente (princípio da atomicidade).z
+- **Transações nos dados sejam realizadas parcialmente:** Uma transação é um conjunto de operações que devem ser concluídas de forma integral. Se uma transação for interrompida antes de ser totalmente executada, pode gerar inconsistências. O banco de dados deve garantir que transações sejam concluídas por completo ou revertidas totalmente (princípio da atomicidade).
+
+# Princípio da Atomicidade
+
+O **princípio da atomicidade** é um dos quatro princípios do modelo **ACID** (Atomicidade, Consistência, Isolamento e Durabilidade), que garantem a confiabilidade das transações em bancos de dados.
+
+A **atomicidade** garante que uma transação no banco de dados seja **executada por completo ou não seja executada de forma alguma**. Isso significa que todas as operações dentro da transação devem ser concluídas com sucesso; caso contrário, nenhuma delas será aplicada ao banco de dados.
+
+Se ocorrer uma falha no meio da execução (por exemplo, uma queda de energia ou erro no sistema), o banco de dados deve **desfazer todas as alterações parciais**, retornando ao estado original antes do início da transação. Esse mecanismo evita que os dados fiquem em um estado inconsistente.
+
+## Exemplo de atomicidade
+
+Imagine uma transferência bancária entre duas contas:  
+
+1. R$ 500 são debitados da Conta A.  
+2. R$ 500 são creditados na Conta B.  
+
+Se houver uma falha depois da primeira etapa, mas antes da segunda, o dinheiro seria retirado da Conta A sem ser adicionado à Conta B, o que causaria um erro. Com o princípio da atomicidade, o banco de dados desfaz o débito da Conta A, garantindo que a transação só seja confirmada se todas as etapas forem concluídas com sucesso.
+
+Esse princípio é essencial para manter a **integridade e confiabilidade dos dados**.
