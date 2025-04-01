@@ -124,6 +124,18 @@ Resposta: **PRODUTO(Categ) REFERENCIA CATEGORIA(CodCateg)**<br>
 Obs.: observe a notação para responder a pergunta:<br>
 &#8718; _RELAÇÃO(FK) REFERENCIA RELAÇÃO(PK)_
 
-1. Sobre a figura (acima) referente à [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), para um **esquema lógico** segundo o Modelo Relacional (MR):<br>
-Pergunta: **Quais as chaves estrangeiras no esquema lógico do BD Empresa?**<br>
-Resposta: <responda segundo a notação _RELAÇÃO(FK) REFERENCIA RELAÇÃO(PK)_, para cada chave estrangeira>
+### **RESPOSTA**
+
+ PRODUTO(Categ) REFERENCIA CATEGORIA(CodCateg)
+
+
+| **Sigla** | **Item** | **Definição** |
+|-----------|----------|---------------|
+| **PK**    | Chave Primária | É um atributo ou conjunto de atributos que identifica de forma única cada tupla (registro) de uma tabela. Cada tabela tem **apenas uma** chave primária. |
+| **FK**    | Chave Estrangeira | Atributo em uma tabela que faz referência à chave primária de outra tabela, estabelecendo uma relação entre elas. |
+| **SKi**   | Super Chave | Conjunto de atributos que pode identificar unicamente uma tupla em uma tabela. Pode ser composta por mais de um atributo. Várias super chaves podem existir, mas a **chave candidata** é a menor delas. |
+| **R(A1, A2, ..., An)** | Esquema de Relação | Definição de uma relação, representada por uma tabela, onde **A1, A2, ..., An** são os atributos da tabela. Representa a estrutura lógica da tabela, sem dados. |
+| **r(R)**  | Relação r segundo o esquema R | Uma instância ou conjunto de dados que satisfaz o esquema de relação **R**. Ou seja, **r(R)** é a tabela com os valores das tuplas para o esquema **R**. |
+| **tj**    | Tupla | É uma linha ou registro na tabela. Representa uma instância dos dados, composta pelos valores dos atributos definidos no esquema. |
+| **tj[Ai] (ou tj.Ai)** | Valor de um Atributo na Tupla | Representa o valor do atributo **Ai** na tupla **tj**. **tj[Ai]** ou **tj.Ai** é o valor específico do atributo **Ai** para a tupla **tj**. |
+| **tj[Ai] ∊ dom(Ai)** | Valor de Atributo em um Domínio | O valor de **tj[Ai]** pertence ao domínio de **Ai**. Ou seja, o valor de **tj[Ai]** deve ser um valor válido dentro do conjunto de valores possíveis para o atributo **Ai**. |
