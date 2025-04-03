@@ -26,22 +26,39 @@ São eles que lidam diretamente com a abstrações fornecidas pela interface do 
 de modo geral faz a parte (feira)hardware, ser mais agradavel de se lidar, usando uma interface gráfica. 
 ![image](https://github.com/user-attachments/assets/99b547dd-4bac-42fb-9553-14270c64376f)
 
-## 1.2 Como um gerenciador de recursos.
+## 1.2 Como um gerenciador de recursos
 
  **Gerente de Recursos:** o SO é responsável pela gerência dos recursos de hardware
 disponíveis na máquina como, por exemplo, discos, impressoras, unidades de fita etc.
 
 - **muultiplexação** (compartilhamento) de recursos de duas maneiras diferentes, tempo e espaço.
   - **Tempo** Diferentes programas ou usuarios se revezam usando. primeiro um programa usa a CPU, tempos de algum tempo de execução ele migra o uso para outro programa.
-  - **Espaço** Ao inves deles se revezarem cada um usa uma parte do todo da CPU, mantendo todos em execução. Pois ao inves de dar todo o processamento a um programa apenas, mesmo ele não necessitando, limita a usabilidade do SO, mas se usarmos o recurso de forma com que
+  - **Espaço** Ao inves deles se revezarem cada um usa uma parte do todo da CPU, mantendo todos em execução. Pois ao inves de dar todo o processamento a um programa apenas,
+    mesmo ele não necessitando, limita a usabilidade do SO, mas se usarmos o recurso de forma com que
     todos os programas sejam executados ao mesmo tempo é mais eficiente.    
 
 ![image](https://github.com/user-attachments/assets/205d6a25-8ced-4ac6-aac4-44bf48b8eb05)
 
 
-# 1.3  revisão de hardware de computadores. 
+## 1.3  revisão de hardware de computadores
 
-Um sistema operacional está intimamente ligado ao hardware do computadorno qual ele é executado. Ele estende o conjunto de instruções do computador e gerencia seus recursos. Para funcionar, ele deve conhcer profundamente o hardware, peo menos como ele aparece para o programador. 
+Um sistema operacional está intimamente ligado ao hardware do computadorno qual ele é executado.
+Ele estende o conjunto de instruções do computador e gerencia seus recursos. Para funcionar,
+ele deve conhcer profundamente o hardware, peo menos como ele aparece para o programador. 
+
+
 
 ![image](https://github.com/user-attachments/assets/3de7c808-a00b-486d-b8b7-8fb2be6c5e39)
 
+### 1.3.1 Processadores
+
+ O "cérebro" do computador é a CPU. Ela busca instruções da memória e as executa. O ciclo básico de toda CPU é buscar a primeira instrução da memória,
+ decodificá-la para determinar o seu tipo e operandos, executá-la, e então busca,decodificar e executar as intruções subsequentes.
+ O ciclo é repetido até o programa terminar. É dessa maneira que os programas são executados. 
+  - Cada CPU tem um conjunto específico de instruções que ela consegue executar. Desse modo, um processador x86 não conseque executar programas e ARM e um processador ARM não conseque executar programas em x86
+
+
+![image](https://github.com/user-attachments/assets/8d53e141-88d3-4367-a75b-56f243aadfcd)
+
+
+ 
