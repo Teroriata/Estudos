@@ -1,0 +1,1001 @@
+id_venda,produto,quantidade,preco_unitario
+0001,Notebook,7,4725.00
+0002,Monitor,7,1200.00
+0003,Teclado,8,180.00
+0004,Mouse,7,90.00
+0005,Headset,3,237.50
+0006,Webcam,3,304.00
+0007,SSD,5,456.00
+0008,Memoria RAM,10,332.50
+0009,HD Externo,5,441.00
+0010,Impressora,6,850.00
+0011,Notebook,2,4500.00
+0012,Monitor,2,1200.00
+0013,Teclado,2,180.00
+0014,Mouse,5,90.00
+0015,Headset,8,262.50
+0016,Webcam,8,320.00
+0017,SSD,9,504.00
+0018,Memoria RAM,4,332.50
+0019,HD Externo,4,420.00
+0020,Impressora,7,850.00
+0021,Notebook,10,4500.00
+0022,Monitor,4,1200.00
+0023,Teclado,7,180.00
+0024,Mouse,3,90.00
+0025,Headset,9,237.50
+0026,Webcam,1,320.00
+0027,SSD,1,504.00
+0028,Memoria RAM,2,332.50
+0029,HD Externo,2,399.00
+0030,Impressora,4,abc
+0031,Notebook,1,4275.00
+0032,Monitor,9,1140.00
+0033,Teclado,3,171.00
+0034,Mouse,6,90.00
+0035,Headset,1,262.50
+0036,Webcam,7,
+0037,SSD,7,456.00
+0038,Memoria RAM,4,367.50
+0039,HD Externo,3,441.00
+0040,Impressora,8,807.50
+0041,Notebook,2,4275.00
+0042,Monitor,1,1200.00
+0043,Teclado,2,180.00
+0044,Mouse,10,94.50
+0045,Headset,1,250.00
+0046,Webcam,3,320.00
+0047,SSD,7,456.00
+0048,Memoria RAM,3,367.50
+0049,HD Externo,2,399.00
+0050,Impressora,1,807.50
+0051,Notebook,4,4275.00
+0052,Monitor,3,1200.00
+0053,Teclado,5,189.00
+0054,Mouse,2,90.00
+0055,Headset,5,262.50
+0056,Webcam,10,304.00
+0057,SSD,5,456.00
+0058,Memoria RAM,9,350.00
+0059,HD Externo,8,399.00
+0060,Impressora,9,807.50
+0061,Notebook,6,4275.00
+0062,Monitor,7,1140.00
+0063,Teclado,9,
+0064,Mouse,8,94.50
+0065,Headset,9,237.50
+0066,Webcam,6,336.00
+0067,SSD,2,480.00
+0068,Memoria RAM,7,367.50
+0069,HD Externo,9,420.00
+0070,Impressora,9,892.50
+0071,Notebook,7,4725.00
+0072,Monitor,1,1200.00
+0073,Teclado,5,180.00
+0074,Mouse,9,90.00
+0075,Headset,10,250.00
+0076,Webcam,5,304.00
+0077,SSD,6,456.00
+0078,Memoria RAM,9,367.50
+0079,HD Externo,10,441.00
+0080,Impressora,4,850.00
+0081,Notebook,3,4500.00
+0082,Monitor,-3,1200.00
+0083,Teclado,4,171.00
+0084,Mouse,6,94.50
+0085,Headset,4,262.50
+0086,Webcam,-3,320.00
+0087,SSD,8,480.00
+0088,Memoria RAM,4,367.50
+0089,HD Externo,4,420.00
+0090,Impressora,3,850.00
+0091,Notebook,7,4500.00
+0092,Monitor,7,1260.00
+0093,Teclado,4,189.00
+0094,Mouse,1,90.00
+0095,Headset,5,250.00
+0096,Webcam,1,320.00
+0097,SSD,10,480.00
+0098,Memoria RAM,4,367.50
+0099,HD Externo,7,420.00
+0100,Impressora,7,
+0101,Notebook,1,4725.00
+0102,Monitor,3,1200.00
+0103,Teclado,5,180.00
+0104,Mouse,7,85.50
+0105,Headset,9,237.50
+0106,Webcam,1,320.00
+0107,SSD,7,504.00
+0108,Memoria RAM,9,350.00
+0109,HD Externo,9,399.00
+0110,Impressora,5,807.50
+0111,Notebook,7,4500.00
+0112,Monitor,10,1200.00
+0113,Teclado,1,171.00
+0114,Mouse,5,85.50
+0115,Headset,1,237.50
+0116,Webcam,8,320.00
+0117,SSD,9,480.00
+0118,Memoria RAM,3,367.50
+0119,HD Externo,3,399.00
+0120,Impressora,3,850.00
+0121,Notebook,1,4725.00
+0122,Monitor,8,1140.00
+0123,Teclado,2,180.00
+0124,Mouse,3,85.50
+0125,Headset,7,250.00
+0126,Webcam,5,320.00
+0127,SSD,5,480.00
+0128,Memoria RAM,8,350.00
+0129,HD Externo,2,420.00
+0130,Impressora,10,850.00
+0131,Notebook,5,4275.00
+0132,Monitor,8,1140.00
+0133,Teclado,4,180.00
+0134,Mouse,10,85.50
+0135,Headset,5,237.50
+0136,Webcam,2,336.00
+0137,SSD,5,456.00
+0138,Memoria RAM,8,332.50
+0139,HD Externo,2,441.00
+0140,Impressora,6,807.50
+0141,Notebook,1,4500.00
+0142,Monitor,7,1140.00
+0143,Teclado,10,171.00
+0144,Mouse,6,94.50
+0145,Headset,2,237.50
+0146,Webcam,2,304.00
+0147,SSD,5,480.00
+0148,Memoria RAM,5,367.50
+0149,HD Externo,4,420.00
+0150,Impressora,4,807.50
+0151,Notebook,3,4500.00
+0152,Monitor,3,1260.00
+0153,Teclado,10,189.00
+0154,Mouse,1,90.00
+0155,Headset,7,250.00
+0156,Webcam,9,320.00
+0157,SSD,2,456.00
+0158,Memoria RAM,7,350.00
+0159,HD Externo,4,420.00
+0160,Impressora,2,807.50
+0161,Notebook,5,4275.00
+0162,Monitor,5,1140.00
+0163,Teclado,3,180.00
+0164,Mouse,7,94.50
+0165,Headset,7,250.00
+0166,Webcam,8,320.00
+0167,SSD,7,504.00
+0168,Memoria RAM,2,350.00
+0169,HD Externo,7,399.00
+0170,Impressora,8,850.00
+0171,Notebook,3,4725.00
+0172,Monitor,2,1200.00
+0173,Teclado,7,180.00
+0174,Mouse,5,90.00
+0175,Headset,6,250.00
+0176,Webcam,10,320.00
+0177,SSD,10,480.00
+0178,Memoria RAM,7,350.00
+0179,HD Externo,6,399.00
+0180,Impressora,0,807.50
+0181,Notebook,3,4275.00
+0182,Monitor,2,1200.00
+0183,Teclado,1,180.00
+0184,Mouse,6,85.50
+0185,Headset,2,262.50
+0186,Webcam,10,320.00
+0187,SSD,2,504.00
+0188,Memoria RAM,3,332.50
+0189,HD Externo,1,420.00
+0190,Impressora,4,807.50
+0191,Notebook,2,4500.00
+0192,Monitor,0,1200.00
+0193,Teclado,3,180.00
+0194,Mouse,5,90.00
+0195,Headset,1,262.50
+0196,Webcam,2,320.00
+0197,SSD,1,480.00
+0198,Memoria RAM,10,367.50
+0199,HD Externo,7,420.00
+0200,Impressora,7,850.00
+0201,Notebook,4,4725.00
+0202,Monitor,8,1200.00
+0203,Teclado,9,
+0204,Mouse,3,85.50
+0205,Headset,6,250.00
+0206,Webcam,5,336.00
+0207,SSD,4,480.00
+0208,Memoria RAM,3,332.50
+0209,HD Externo,10,399.00
+0210,Impressora,9,892.50
+0211,Notebook,3,4500.00
+0212,Monitor,-5,1200.00
+0213,Teclado,7,180.00
+0214,Mouse,8,94.50
+0215,Headset,1,250.00
+0216,Webcam,6,320.00
+0217,SSD,6,480.00
+0218,Memoria RAM,7,332.50
+0219,HD Externo,3,420.00
+0220,Impressora,4,850.00
+0221,Notebook,7,4500.00
+0222,Monitor,3,1200.00
+0223,Teclado,3,180.00
+0224,Mouse,4,85.50
+0225,Headset,9,250.00
+0226,Webcam,8,320.00
+0227,SSD,8,480.00
+0228,Memoria RAM,1,
+0229,HD Externo,7,441.00
+0230,Impressora,3,892.50
+0231,Notebook,1,4500.00
+0232,Monitor,5,1200.00
+0233,Teclado,2,180.00
+0234,Mouse,4,90.00
+0235,Headset,9,250.00
+0236,Webcam,5,336.00
+0237,SSD,2,480.00
+0238,Memoria RAM,10,332.50
+0239,HD Externo,3,420.00
+0240,Impressora,4,892.50
+0241,Notebook,2,4275.00
+0242,Monitor,1,1140.00
+0243,Teclado,7,180.00
+0244,Mouse,6,90.00
+0245,Headset,2,262.50
+0246,Webcam,5,320.00
+0247,SSD,0,480.00
+0248,Memoria RAM,6,350.00
+0249,HD Externo,7,399.00
+0250,Impressora,9,892.50
+0251,Notebook,10,4500.00
+0252,Monitor,7,1260.00
+0253,Teclado,9,180.00
+0254,Mouse,1,90.00
+0255,Headset,9,262.50
+0256,Webcam,7,320.00
+0257,SSD,3,480.00
+0258,Memoria RAM,3,350.00
+0259,HD Externo,7,420.00
+0260,Impressora,4,850.00
+0261,Notebook,4,4725.00
+0262,Monitor,5,1200.00
+0263,Teclado,7,180.00
+0264,Mouse,5,90.00
+0265,Headset,6,250.00
+0266,Webcam,2,336.00
+0267,SSD,8,480.00
+0268,Memoria RAM,4,350.00
+0269,HD Externo,3,399.00
+0270,Impressora,1,850.00
+0271,Notebook,6,4500.00
+0272,Monitor,10,1140.00
+0273,Teclado,8,180.00
+0274,Mouse,3,
+0275,Headset,1,262.50
+0276,Webcam,8,336.00
+0277,SSD,10,480.00
+0278,Memoria RAM,4,350.00
+0279,HD Externo,2,399.00
+0280,Impressora,5,850.00
+0281,Notebook,1,4725.00
+0282,Monitor,9,1200.00
+0283,Teclado,7,171.00
+0284,Mouse,9,85.50
+0285,Headset,1,262.50
+0286,Webcam,5,320.00
+0287,SSD,10,456.00
+0288,Memoria RAM,10,350.00
+0289,HD Externo,4,420.00
+0290,Impressora,1,807.50
+0291,Notebook,4,4725.00
+0292,Monitor,1,1260.00
+0293,Teclado,5,180.00
+0294,Mouse,7,90.00
+0295,Headset,4,250.00
+0296,Webcam,3,304.00
+0297,SSD,8,456.00
+0298,Memoria RAM,4,350.00
+0299,HD Externo,5,441.00
+0300,Impressora,5,807.50
+0301,Notebook,9,4275.00
+0302,Monitor,3,1260.00
+0303,Teclado,7,180.00
+0304,Mouse,9,90.00
+0305,Headset,5,250.00
+0306,Webcam,7,320.00
+0307,SSD,9,480.00
+0308,Memoria RAM,6,350.00
+0309,HD Externo,3,441.00
+0310,Impressora,10,807.50
+0311,Notebook,2,4500.00
+0312,Monitor,7,1140.00
+0313,Teclado,8,171.00
+0314,Mouse,1,90.00
+0315,Headset,4,250.00
+0316,Webcam,3,304.00
+0317,SSD,9,456.00
+0318,Memoria RAM,4,350.00
+0319,HD Externo,4,420.00
+0320,Impressora,9,850.00
+0321,Notebook,4,4725.00
+0322,Monitor,6,1140.00
+0323,Teclado,-2,180.00
+0324,Mouse,3,85.50
+0325,Headset,1,250.00
+0326,Webcam,-1,320.00
+0327,SSD,0,456.00
+0328,Memoria RAM,5,350.00
+0329,HD Externo,6,420.00
+0330,Impressora,4,850.00
+0331,Notebook,6,4725.00
+0332,Monitor,3,1140.00
+0333,Teclado,8,189.00
+0334,Mouse,4,90.00
+0335,Headset,5,237.50
+0336,Webcam,7,336.00
+0337,SSD,6,504.00
+0338,Memoria RAM,3,367.50
+0339,HD Externo,4,399.00
+0340,Impressora,7,892.50
+0341,Notebook,10,4500.00
+0342,Monitor,7,1140.00
+0343,Teclado,1,171.00
+0344,Mouse,10,90.00
+0345,Headset,4,262.50
+0346,Webcam,8,304.00
+0347,SSD,10,456.00
+0348,Memoria RAM,3,367.50
+0349,HD Externo,5,420.00
+0350,Impressora,5,892.50
+0351,Notebook,1,4275.00
+0352,Monitor,7,1200.00
+0353,Teclado,9,180.00
+0354,Mouse,5,90.00
+0355,Headset,10,237.50
+0356,Webcam,10,336.00
+0357,SSD,4,480.00
+0358,Memoria RAM,6,350.00
+0359,HD Externo,5,441.00
+0360,Impressora,3,850.00
+0361,Notebook,10,4500.00
+0362,Monitor,6,1200.00
+0363,Teclado,5,180.00
+0364,Mouse,4,90.00
+0365,Headset,9,250.00
+0366,Webcam,9,336.00
+0367,SSD,4,480.00
+0368,Memoria RAM,3,350.00
+0369,HD Externo,4,399.00
+0370,Impressora,4,850.00
+0371,Notebook,5,
+0372,Monitor,9,1260.00
+0373,Teclado,4,180.00
+0374,Mouse,6,90.00
+0375,Headset,5,250.00
+0376,Webcam,5,336.00
+0377,SSD,3,480.00
+0378,Memoria RAM,9,367.50
+0379,HD Externo,9,441.00
+0380,Impressora,3,892.50
+0381,Notebook,1,4725.00
+0382,Monitor,10,1200.00
+0383,Teclado,9,189.00
+0384,Mouse,5,85.50
+0385,Headset,4,237.50
+0386,Webcam,9,336.00
+0387,SSD,3,504.00
+0388,Memoria RAM,8,350.00
+0389,HD Externo,6,420.00
+0390,Impressora,3,850.00
+0391,Notebook,6,4500.00
+0392,Monitor,3,1260.00
+0393,Teclado,4,171.00
+0394,Mouse,3,90.00
+0395,Headset,7,250.00
+0396,Webcam,9,304.00
+0397,SSD,0,456.00
+0398,Memoria RAM,5,367.50
+0399,HD Externo,6,441.00
+0400,Impressora,8,807.50
+0401,Notebook,4,4500.00
+0402,Monitor,4,1200.00
+0403,Teclado,9,171.00
+0404,Mouse,4,90.00
+0405,Headset,3,250.00
+0406,Webcam,5,320.00
+0407,SSD,4,480.00
+0408,Memoria RAM,9,
+0409,HD Externo,4,420.00
+0410,Impressora,4,892.50
+0411,Notebook,6,4500.00
+0412,Monitor,1,1260.00
+0413,Teclado,2,180.00
+0414,Mouse,3,90.00
+0415,Headset,2,262.50
+0416,Webcam,9,304.00
+0417,SSD,9,504.00
+0418,Memoria RAM,10,350.00
+0419,HD Externo,5,441.00
+0420,Impressora,6,850.00
+0421,Notebook,8,4500.00
+0422,Monitor,1,1260.00
+0423,Teclado,9,171.00
+0424,Mouse,1,85.50
+0425,Headset,8,262.50
+0426,Webcam,4,336.00
+0427,SSD,1,504.00
+0428,Memoria RAM,7,350.00
+0429,HD Externo,5,420.00
+0430,Impressora,5,807.50
+0431,Notebook,5,4500.00
+0432,Monitor,9,1260.00
+0433,Teclado,1,171.00
+0434,Mouse,1,85.50
+0435,Headset,9,250.00
+0436,Webcam,2,320.00
+0437,SSD,6,480.00
+0438,Memoria RAM,10,350.00
+0439,HD Externo,3,420.00
+0440,Impressora,8,892.50
+0441,Notebook,2,4275.00
+0442,Monitor,-3,1140.00
+0443,Teclado,6,
+0444,Mouse,2,90.00
+0445,Headset,7,262.50
+0446,Webcam,9,320.00
+0447,SSD,9,456.00
+0448,Memoria RAM,9,350.00
+0449,HD Externo,5,399.00
+0450,Impressora,8,850.00
+0451,Notebook,5,4500.00
+0452,Monitor,6,1140.00
+0453,Teclado,2,180.00
+0454,Mouse,3,85.50
+0455,Headset,3,237.50
+0456,Webcam,4,320.00
+0457,SSD,3,456.00
+0458,Memoria RAM,10,332.50
+0459,HD Externo,3,399.00
+0460,Impressora,2,807.50
+0461,Notebook,3,4500.00
+0462,Monitor,3,1140.00
+0463,Teclado,2,180.00
+0464,Mouse,5,abc
+0465,Headset,2,262.50
+0466,Webcam,5,336.00
+0467,SSD,0,480.00
+0468,Memoria RAM,3,
+0469,HD Externo,5,420.00
+0470,Impressora,9,850.00
+0471,Notebook,9,4500.00
+0472,Monitor,4,1200.00
+0473,Teclado,6,180.00
+0474,Mouse,10,90.00
+0475,Headset,4,262.50
+0476,Webcam,2,304.00
+0477,SSD,0,480.00
+0478,Memoria RAM,8,
+0479,HD Externo,-3,420.00
+0480,Impressora,7,850.00
+0481,Notebook,8,4275.00
+0482,Monitor,8,1200.00
+0483,Teclado,1,171.00
+0484,Mouse,1,90.00
+0485,Headset,10,250.00
+0486,Webcam,9,336.00
+0487,SSD,1,480.00
+0488,Memoria RAM,4,332.50
+0489,HD Externo,-1,420.00
+0490,Impressora,2,850.00
+0491,Notebook,3,4725.00
+0492,Monitor,7,1260.00
+0493,Teclado,5,180.00
+0494,Mouse,8,90.00
+0495,Headset,9,237.50
+0496,Webcam,6,abc
+0497,SSD,6,504.00
+0498,Memoria RAM,10,367.50
+0499,HD Externo,2,441.00
+0500,Impressora,6,850.00
+0501,Notebook,7,4725.00
+0502,Monitor,6,1200.00
+0503,Teclado,1,171.00
+0504,Mouse,8,90.00
+0505,Headset,8,262.50
+0506,Webcam,8,304.00
+0507,SSD,7,480.00
+0508,Memoria RAM,4,350.00
+0509,HD Externo,4,420.00
+0510,Impressora,10,807.50
+0511,Notebook,2,4275.00
+0512,Monitor,7,1200.00
+0513,Teclado,7,180.00
+0514,Mouse,4,94.50
+0515,Headset,6,262.50
+0516,Webcam,10,304.00
+0517,SSD,9,480.00
+0518,Memoria RAM,-5,350.00
+0519,HD Externo,4,420.00
+0520,Impressora,10,807.50
+0521,Notebook,9,4500.00
+0522,Monitor,5,1200.00
+0523,Teclado,4,180.00
+0524,Mouse,4,94.50
+0525,Headset,7,250.00
+0526,Webcam,0,320.00
+0527,SSD,3,480.00
+0528,Memoria RAM,1,367.50
+0529,HD Externo,4,441.00
+0530,Impressora,9,892.50
+0531,Notebook,6,4500.00
+0532,Monitor,10,1140.00
+0533,Teclado,10,189.00
+0534,Mouse,10,94.50
+0535,Headset,10,237.50
+0536,Webcam,1,320.00
+0537,SSD,5,480.00
+0538,Memoria RAM,5,350.00
+0539,HD Externo,5,420.00
+0540,Impressora,4,850.00
+0541,Notebook,7,4500.00
+0542,Monitor,3,1200.00
+0543,Teclado,3,189.00
+0544,Mouse,10,94.50
+0545,Headset,5,250.00
+0546,Webcam,4,320.00
+0547,SSD,10,456.00
+0548,Memoria RAM,7,367.50
+0549,HD Externo,2,441.00
+0550,Impressora,2,807.50
+0551,Notebook,3,4500.00
+0552,Monitor,5,1140.00
+0553,Teclado,6,180.00
+0554,Mouse,8,90.00
+0555,Headset,10,250.00
+0556,Webcam,4,320.00
+0557,SSD,1,480.00
+0558,Memoria RAM,7,350.00
+0559,HD Externo,6,399.00
+0560,Impressora,4,850.00
+0561,Notebook,2,4275.00
+0562,Monitor,5,1200.00
+0563,Teclado,3,180.00
+0564,Mouse,7,94.50
+0565,Headset,3,250.00
+0566,Webcam,9,304.00
+0567,SSD,1,504.00
+0568,Memoria RAM,10,abc
+0569,HD Externo,3,420.00
+0570,Impressora,3,892.50
+0571,Notebook,6,4500.00
+0572,Monitor,5,abc
+0573,Teclado,3,189.00
+0574,Mouse,4,90.00
+0575,Headset,6,237.50
+0576,Webcam,10,320.00
+0577,SSD,3,504.00
+0578,Memoria RAM,9,350.00
+0579,HD Externo,2,441.00
+0580,Impressora,9,850.00
+0581,Notebook,2,4725.00
+0582,Monitor,8,1200.00
+0583,Teclado,2,189.00
+0584,Mouse,9,90.00
+0585,Headset,3,262.50
+0586,Webcam,4,320.00
+0587,SSD,3,456.00
+0588,Memoria RAM,5,350.00
+0589,HD Externo,9,abc
+0590,Impressora,8,850.00
+0591,Notebook,4,4725.00
+0592,Monitor,7,1260.00
+0593,Teclado,10,180.00
+0594,Mouse,7,90.00
+0595,Headset,6,250.00
+0596,Webcam,6,304.00
+0597,SSD,2,504.00
+0598,Memoria RAM,4,350.00
+0599,HD Externo,1,441.00
+0600,Impressora,10,892.50
+0601,Notebook,8,4275.00
+0602,Monitor,5,abc
+0603,Teclado,4,171.00
+0604,Mouse,10,94.50
+0605,Headset,4,262.50
+0606,Webcam,9,320.00
+0607,SSD,8,480.00
+0608,Memoria RAM,10,367.50
+0609,HD Externo,4,420.00
+0610,Impressora,6,807.50
+0611,Notebook,5,4275.00
+0612,Monitor,2,1200.00
+0613,Teclado,10,180.00
+0614,Mouse,4,85.50
+0615,Headset,9,237.50
+0616,Webcam,6,336.00
+0617,SSD,9,504.00
+0618,Memoria RAM,8,350.00
+0619,HD Externo,4,399.00
+0620,Impressora,3,892.50
+0621,Notebook,5,4725.00
+0622,Monitor,2,1260.00
+0623,Teclado,1,180.00
+0624,Mouse,4,85.50
+0625,Headset,6,262.50
+0626,Webcam,6,320.00
+0627,SSD,1,504.00
+0628,Memoria RAM,10,367.50
+0629,HD Externo,10,441.00
+0630,Impressora,2,807.50
+0631,Notebook,9,4500.00
+0632,Monitor,5,1200.00
+0633,Teclado,10,171.00
+0634,Mouse,5,90.00
+0635,Headset,4,250.00
+0636,Webcam,5,336.00
+0637,SSD,1,504.00
+0638,Memoria RAM,3,332.50
+0639,HD Externo,6,420.00
+0640,Impressora,1,850.00
+0641,Notebook,10,4500.00
+0642,Monitor,2,1140.00
+0643,Teclado,3,171.00
+0644,Mouse,6,90.00
+0645,Headset,6,237.50
+0646,Webcam,3,320.00
+0647,SSD,8,456.00
+0648,Memoria RAM,4,350.00
+0649,HD Externo,7,420.00
+0650,Impressora,7,807.50
+0651,Notebook,4,4725.00
+0652,Monitor,8,1200.00
+0653,Teclado,5,180.00
+0654,Mouse,10,90.00
+0655,Headset,3,250.00
+0656,Webcam,2,320.00
+0657,SSD,6,480.00
+0658,Memoria RAM,1,350.00
+0659,HD Externo,9,399.00
+0660,Impressora,3,807.50
+0661,Notebook,3,4275.00
+0662,Monitor,3,1260.00
+0663,Teclado,8,180.00
+0664,Mouse,8,94.50
+0665,Headset,6,250.00
+0666,Webcam,2,336.00
+0667,SSD,7,480.00
+0668,Memoria RAM,1,332.50
+0669,HD Externo,4,399.00
+0670,Impressora,6,850.00
+0671,Notebook,9,4275.00
+0672,Monitor,4,1200.00
+0673,Teclado,9,180.00
+0674,Mouse,7,94.50
+0675,Headset,7,abc
+0676,Webcam,9,304.00
+0677,SSD,7,480.00
+0678,Memoria RAM,10,332.50
+0679,HD Externo,4,441.00
+0680,Impressora,4,807.50
+0681,Notebook,2,4500.00
+0682,Monitor,7,1260.00
+0683,Teclado,6,
+0684,Mouse,4,90.00
+0685,Headset,2,250.00
+0686,Webcam,3,320.00
+0687,SSD,3,504.00
+0688,Memoria RAM,10,332.50
+0689,HD Externo,3,420.00
+0690,Impressora,4,850.00
+0691,Notebook,6,4275.00
+0692,Monitor,9,1200.00
+0693,Teclado,8,189.00
+0694,Mouse,9,90.00
+0695,Headset,2,237.50
+0696,Webcam,2,320.00
+0697,SSD,4,480.00
+0698,Memoria RAM,9,350.00
+0699,HD Externo,9,420.00
+0700,Impressora,10,807.50
+0701,Notebook,1,4725.00
+0702,Monitor,2,1260.00
+0703,Teclado,2,180.00
+0704,Mouse,10,90.00
+0705,Headset,4,237.50
+0706,Webcam,1,320.00
+0707,SSD,2,504.00
+0708,Memoria RAM,0,367.50
+0709,HD Externo,1,399.00
+0710,Impressora,9,850.00
+0711,Notebook,1,4500.00
+0712,Monitor,8,abc
+0713,Teclado,9,180.00
+0714,Mouse,8,85.50
+0715,Headset,2,250.00
+0716,Webcam,4,304.00
+0717,SSD,10,504.00
+0718,Memoria RAM,1,367.50
+0719,HD Externo,4,441.00
+0720,Impressora,2,807.50
+0721,Notebook,2,4500.00
+0722,Monitor,7,1200.00
+0723,Teclado,7,180.00
+0724,Mouse,0,85.50
+0725,Headset,8,250.00
+0726,Webcam,5,320.00
+0727,SSD,8,456.00
+0728,Memoria RAM,9,350.00
+0729,HD Externo,4,441.00
+0730,Impressora,7,850.00
+0731,Notebook,4,4275.00
+0732,Monitor,7,1140.00
+0733,Teclado,3,180.00
+0734,Mouse,6,85.50
+0735,Headset,3,237.50
+0736,Webcam,6,304.00
+0737,SSD,1,504.00
+0738,Memoria RAM,3,350.00
+0739,HD Externo,6,399.00
+0740,Impressora,9,850.00
+0741,Notebook,6,4500.00
+0742,Monitor,6,1200.00
+0743,Teclado,6,171.00
+0744,Mouse,1,90.00
+0745,Headset,4,237.50
+0746,Webcam,10,320.00
+0747,SSD,6,480.00
+0748,Memoria RAM,2,367.50
+0749,HD Externo,10,420.00
+0750,Impressora,9,807.50
+0751,Notebook,7,4500.00
+0752,Monitor,3,1200.00
+0753,Teclado,2,171.00
+0754,Mouse,3,90.00
+0755,Headset,1,250.00
+0756,Webcam,2,304.00
+0757,SSD,2,480.00
+0758,Memoria RAM,4,367.50
+0759,HD Externo,2,399.00
+0760,Impressora,1,850.00
+0761,Notebook,6,4500.00
+0762,Monitor,4,1260.00
+0763,Teclado,4,180.00
+0764,Mouse,4,85.50
+0765,Headset,7,250.00
+0766,Webcam,9,320.00
+0767,SSD,4,456.00
+0768,Memoria RAM,8,350.00
+0769,HD Externo,4,441.00
+0770,Impressora,10,abc
+0771,Notebook,3,4500.00
+0772,Monitor,5,1140.00
+0773,Teclado,5,180.00
+0774,Mouse,4,90.00
+0775,Headset,3,237.50
+0776,Webcam,10,336.00
+0777,SSD,4,504.00
+0778,Memoria RAM,3,332.50
+0779,HD Externo,9,420.00
+0780,Impressora,0,850.00
+0781,Notebook,1,4500.00
+0782,Monitor,5,1140.00
+0783,Teclado,3,171.00
+0784,Mouse,9,90.00
+0785,Headset,4,250.00
+0786,Webcam,1,336.00
+0787,SSD,1,456.00
+0788,Memoria RAM,10,350.00
+0789,HD Externo,8,399.00
+0790,Impressora,5,807.50
+0791,Notebook,9,4500.00
+0792,Monitor,2,1140.00
+0793,Teclado,1,171.00
+0794,Mouse,10,90.00
+0795,Headset,2,250.00
+0796,Webcam,7,320.00
+0797,SSD,5,480.00
+0798,Memoria RAM,5,332.50
+0799,HD Externo,2,420.00
+0800,Impressora,9,807.50
+0801,Notebook,7,4500.00
+0802,Monitor,2,1200.00
+0803,Teclado,5,189.00
+0804,Mouse,9,90.00
+0805,Headset,4,250.00
+0806,Webcam,9,320.00
+0807,SSD,7,456.00
+0808,Memoria RAM,6,350.00
+0809,HD Externo,2,441.00
+0810,Impressora,6,850.00
+0811,Notebook,7,4500.00
+0812,Monitor,2,1200.00
+0813,Teclado,8,180.00
+0814,Mouse,5,85.50
+0815,Headset,2,237.50
+0816,Webcam,-2,320.00
+0817,SSD,10,456.00
+0818,Memoria RAM,9,367.50
+0819,HD Externo,6,420.00
+0820,Impressora,8,807.50
+0821,Notebook,5,4275.00
+0822,Monitor,5,1200.00
+0823,Teclado,7,189.00
+0824,Mouse,10,90.00
+0825,Headset,6,262.50
+0826,Webcam,7,320.00
+0827,SSD,8,456.00
+0828,Memoria RAM,5,367.50
+0829,HD Externo,6,420.00
+0830,Impressora,2,850.00
+0831,Notebook,7,4500.00
+0832,Monitor,4,1140.00
+0833,Teclado,9,180.00
+0834,Mouse,2,90.00
+0835,Headset,1,250.00
+0836,Webcam,6,336.00
+0837,SSD,1,480.00
+0838,Memoria RAM,1,367.50
+0839,HD Externo,4,399.00
+0840,Impressora,7,850.00
+0841,Notebook,10,4275.00
+0842,Monitor,2,1200.00
+0843,Teclado,8,171.00
+0844,Mouse,4,90.00
+0845,Headset,9,
+0846,Webcam,9,320.00
+0847,SSD,10,480.00
+0848,Memoria RAM,6,350.00
+0849,HD Externo,10,420.00
+0850,Impressora,4,807.50
+0851,Notebook,8,
+0852,Monitor,6,
+0853,Teclado,8,189.00
+0854,Mouse,2,94.50
+0855,Headset,6,237.50
+0856,Webcam,9,304.00
+0857,SSD,5,480.00
+0858,Memoria RAM,3,367.50
+0859,HD Externo,8,420.00
+0860,Impressora,6,850.00
+0861,Notebook,10,4725.00
+0862,Monitor,9,1260.00
+0863,Teclado,9,180.00
+0864,Mouse,7,85.50
+0865,Headset,6,237.50
+0866,Webcam,0,320.00
+0867,SSD,4,480.00
+0868,Memoria RAM,8,367.50
+0869,HD Externo,6,399.00
+0870,Impressora,6,892.50
+0871,Notebook,3,4275.00
+0872,Monitor,3,1140.00
+0873,Teclado,1,180.00
+0874,Mouse,7,90.00
+0875,Headset,5,262.50
+0876,Webcam,10,320.00
+0877,SSD,8,504.00
+0878,Memoria RAM,5,abc
+0879,HD Externo,3,420.00
+0880,Impressora,8,850.00
+0881,Notebook,7,4725.00
+0882,Monitor,9,1140.00
+0883,Teclado,5,180.00
+0884,Mouse,4,90.00
+0885,Headset,2,237.50
+0886,Webcam,4,304.00
+0887,SSD,5,504.00
+0888,Memoria RAM,3,332.50
+0889,HD Externo,8,441.00
+0890,Impressora,6,850.00
+0891,Notebook,2,4500.00
+0892,Monitor,4,1200.00
+0893,Teclado,5,189.00
+0894,Mouse,8,85.50
+0895,Headset,3,237.50
+0896,Webcam,10,304.00
+0897,SSD,6,480.00
+0898,Memoria RAM,2,350.00
+0899,HD Externo,1,420.00
+0900,Impressora,4,892.50
+0901,Notebook,2,4725.00
+0902,Monitor,9,1200.00
+0903,Teclado,7,180.00
+0904,Mouse,1,85.50
+0905,Headset,2,262.50
+0906,Webcam,4,336.00
+0907,SSD,5,480.00
+0908,Memoria RAM,4,367.50
+0909,HD Externo,8,399.00
+0910,Impressora,5,892.50
+0911,Notebook,10,4500.00
+0912,Monitor,7,1140.00
+0913,Teclado,7,180.00
+0914,Mouse,1,94.50
+0915,Headset,3,262.50
+0916,Webcam,10,304.00
+0917,SSD,8,504.00
+0918,Memoria RAM,7,350.00
+0919,HD Externo,4,420.00
+0920,Impressora,2,850.00
+0921,Notebook,8,4500.00
+0922,Monitor,3,1140.00
+0923,Teclado,10,180.00
+0924,Mouse,8,94.50
+0925,Headset,6,250.00
+0926,Webcam,6,336.00
+0927,SSD,9,456.00
+0928,Memoria RAM,1,350.00
+0929,HD Externo,10,420.00
+0930,Impressora,3,807.50
+0931,Notebook,3,4500.00
+0932,Monitor,7,1200.00
+0933,Teclado,3,180.00
+0934,Mouse,9,90.00
+0935,Headset,4,262.50
+0936,Webcam,7,304.00
+0937,SSD,10,456.00
+0938,Memoria RAM,6,350.00
+0939,HD Externo,7,abc
+0940,Impressora,3,850.00
+0941,Notebook,2,4500.00
+0942,Monitor,5,1200.00
+0943,Teclado,9,180.00
+0944,Mouse,1,90.00
+0945,Headset,2,237.50
+0946,Webcam,1,320.00
+0947,SSD,10,504.00
+0948,Memoria RAM,9,332.50
+0949,HD Externo,5,441.00
+0950,Impressora,3,892.50
+0951,Notebook,10,4275.00
+0952,Monitor,1,1260.00
+0953,Teclado,10,189.00
+0954,Mouse,8,90.00
+0955,Headset,5,250.00
+0956,Webcam,2,320.00
+0957,SSD,3,480.00
+0958,Memoria RAM,2,350.00
+0959,HD Externo,3,399.00
+0960,Impressora,9,807.50
+0961,Notebook,8,4500.00
+0962,Monitor,4,1260.00
+0963,Teclado,10,171.00
+0964,Mouse,1,94.50
+0965,Headset,1,250.00
+0966,Webcam,8,304.00
+0967,SSD,1,480.00
+0968,Memoria RAM,4,350.00
+0969,HD Externo,6,441.00
+0970,Impressora,1,850.00
+0971,Notebook,3,4500.00
+0972,Monitor,1,1260.00
+0973,Teclado,8,180.00
+0974,Mouse,10,94.50
+0975,Headset,6,262.50
+0976,Webcam,-3,320.00
+0977,SSD,1,504.00
+0978,Memoria RAM,7,350.00
+0979,HD Externo,10,399.00
+0980,Impressora,8,850.00
+0981,Notebook,9,4275.00
+0982,Monitor,1,1200.00
+0983,Teclado,9,180.00
+0984,Mouse,5,85.50
+0985,Headset,7,237.50
+0986,Webcam,8,304.00
+0987,SSD,9,504.00
+0988,Memoria RAM,8,332.50
+0989,HD Externo,7,441.00
+0990,Impressora,2,892.50
+0991,Notebook,10,4275.00
+0992,Monitor,4,1260.00
+0993,Teclado,2,180.00
+0994,Mouse,9,94.50
+0995,Headset,10,237.50
+0996,Webcam,5,304.00
+0997,SSD,4,456.00
+0998,Memoria RAM,2,350.00
+0999,HD Externo,3,420.00
+1000,Impressora,10,807.50

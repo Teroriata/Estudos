@@ -1,0 +1,11 @@
+id_venda,produto,quantidade,preco_unitario
+001,Notebook,2,4500.00
+002,Mouse,5,90.00
+003,Monitor,1,1200.00
+004,Teclado,3,180.00
+005,Headset,2,250.00
+006,SSD,4,480.00
+007,Webcam,1,320.00
+008,Memoria RAM,2,350.00
+009,Mouse,-1,90.00
+010,Produto Inexistente,2,
