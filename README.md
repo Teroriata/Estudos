@@ -1,2 +1,0 @@
-# Tero
- My personal website
